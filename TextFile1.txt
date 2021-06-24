@@ -1,0 +1,18 @@
+﻿1-)Task sınıfı içerisindeki Result propertysi main(ui) threadi kilitler.Senkron bir method içinden asenkron bir yanıt alınmasını sağlar.
+
+Task Properties
+
+IsCancelled - IsCompleted - IsCompletedSuccesfully 
+
+2-)ValueTask structı Task sınıfının struct halidir.
+
+
+
+
+MultipleActiveResultSets(MARS):Console veya Form uygulamalarında açık olan connectionString üzerinden ,
+birden fazla sorgu çalıştırabilmemiz için  "true" set edilmesi gereken property; Api veya web uygulamalarında
+buna gerek yok çünkü request başına connection açılıp sorgu çalıştırlır.
+
+
+Entity üzerinde çalışan sorgularda öncelikle datanın hepsini gidip dbden çeker. Daha sonra aldığı array
+üzerinde verilen plinq komutlarını paralell olarak çalıştırır.

@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormAsync", "FormAsync\FormAsync.csproj", "{BA66CE77-5500-4929-AF9B-4D0D94379A8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiAsync", "WebApiAsync\WebApiAsync.csproj", "{01D8AACA-D42C-4602-9D8C-D30D5F0A8F26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAsync", "ConsoleAsync\ConsoleAsync.csproj", "{B96EF46D-8338-4101-89C1-8F8243ACC0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppAsync", "ConsoleAppAsync\ConsoleAppAsync.csproj", "{B4B04F9A-927B-4B1A-BD1F-0BA52069E247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormAsyncTask", "FormAsyncTask\FormAsyncTask.csproj", "{C5120710-33A6-4DFB-83FC-144C09C83952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCancelToken", "FormCancelToken\FormCancelToken.csproj", "{04F36354-2F84-46B6-83A6-FBEC28D8E5FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{299DFE5A-85D3-4D45-B307-D13FED5A43FF}"
+	ProjectSection(SolutionItems) = preProject
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParalellForeach", "ParalellForeach\ParalellForeach.csproj", "{5BD64D00-0090-47F0-ABB9-1708B334DE6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelForeachRaceCon", "ParallelForeachRaceCon\ParallelForeachRaceCon.csproj", "{7D116C86-110F-452E-BAF4-5F9DAB33832B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelFor", "ParallelFor\ParallelFor.csproj", "{D2A598E2-C48A-4506-BDD0-355210EE28C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLinq", "PLinq\PLinq.csproj", "{7B6B9210-DE73-4A6B-9C06-B65B5142994A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLinqCancelTokenForm", "PLinqCancelTokenForm\PLinqCancelTokenForm.csproj", "{B663668A-5951-4266-8C14-84EC8BD20267}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA66CE77-5500-4929-AF9B-4D0D94379A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA66CE77-5500-4929-AF9B-4D0D94379A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA66CE77-5500-4929-AF9B-4D0D94379A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA66CE77-5500-4929-AF9B-4D0D94379A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01D8AACA-D42C-4602-9D8C-D30D5F0A8F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D8AACA-D42C-4602-9D8C-D30D5F0A8F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D8AACA-D42C-4602-9D8C-D30D5F0A8F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D8AACA-D42C-4602-9D8C-D30D5F0A8F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96EF46D-8338-4101-89C1-8F8243ACC0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96EF46D-8338-4101-89C1-8F8243ACC0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96EF46D-8338-4101-89C1-8F8243ACC0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96EF46D-8338-4101-89C1-8F8243ACC0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B04F9A-927B-4B1A-BD1F-0BA52069E247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B04F9A-927B-4B1A-BD1F-0BA52069E247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B04F9A-927B-4B1A-BD1F-0BA52069E247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B04F9A-927B-4B1A-BD1F-0BA52069E247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5120710-33A6-4DFB-83FC-144C09C83952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5120710-33A6-4DFB-83FC-144C09C83952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5120710-33A6-4DFB-83FC-144C09C83952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5120710-33A6-4DFB-83FC-144C09C83952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F36354-2F84-46B6-83A6-FBEC28D8E5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F36354-2F84-46B6-83A6-FBEC28D8E5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F36354-2F84-46B6-83A6-FBEC28D8E5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F36354-2F84-46B6-83A6-FBEC28D8E5FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD64D00-0090-47F0-ABB9-1708B334DE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD64D00-0090-47F0-ABB9-1708B334DE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD64D00-0090-47F0-ABB9-1708B334DE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD64D00-0090-47F0-ABB9-1708B334DE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D116C86-110F-452E-BAF4-5F9DAB33832B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D116C86-110F-452E-BAF4-5F9DAB33832B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D116C86-110F-452E-BAF4-5F9DAB33832B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D116C86-110F-452E-BAF4-5F9DAB33832B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A598E2-C48A-4506-BDD0-355210EE28C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A598E2-C48A-4506-BDD0-355210EE28C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A598E2-C48A-4506-BDD0-355210EE28C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A598E2-C48A-4506-BDD0-355210EE28C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6B9210-DE73-4A6B-9C06-B65B5142994A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6B9210-DE73-4A6B-9C06-B65B5142994A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6B9210-DE73-4A6B-9C06-B65B5142994A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6B9210-DE73-4A6B-9C06-B65B5142994A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B663668A-5951-4266-8C14-84EC8BD20267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B663668A-5951-4266-8C14-84EC8BD20267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B663668A-5951-4266-8C14-84EC8BD20267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B663668A-5951-4266-8C14-84EC8BD20267}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA39913F-4A52-460B-A7B6-BD759C7C027E}
+	EndGlobalSection
+EndGlobal
